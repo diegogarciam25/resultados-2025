@@ -1,9 +1,44 @@
-<div class="chart-container">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alcalde/Alcaldesa - Los Taques</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="membrete">
+        <h1>República de Venezuela, Estado Falcón, Municipio Los Taques</h1>
+        <h2>Junta Municipal Electoral</h2>
+    </header>
+
+    <main>
+        <div class="escrutinio-header">
+            <p id="porcentaje-escrutinio">19.53% actas escrutadas</p>
+            <div class="separador"></div>
+        </div>
+        
+        <div class="result-container">
+            <table id="result-table">
+                <thead>
+                    <tr>
+                        <th>Candidato</th>
+                        <th>Partido/Coalición</th>
+                        <th>Votos</th>
+                        <th>Porcentaje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Datos se llenarán con JavaScript -->
+                </tbody>
+            </table>
+            
+            <div class="chart-container">
                 <canvas id="results-chart"></canvas>
             </div>
             
-            <div class="escrutinio">
-                <p id="porcentaje-escrutinio">19.53% actas escrutadas</p>
+            <div class="search-container">
+                <button class="search-button">Buscar</button>
             </div>
         </div>
     </main>
@@ -11,7 +46,6 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="../js/script.js"></script>
     <script>
-        // Configuración específica para esta página
         document.addEventListener('DOMContentLoaded', function() {
             cargarResultados('alcalde');
         });
