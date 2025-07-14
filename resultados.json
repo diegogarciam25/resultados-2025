@@ -1,0 +1,76 @@
+{
+    "alcalde": {
+        "candidatos": [
+            {
+                "nombre": "Juan Pérez",
+                "partido": "PSUV",
+                "votos": 12500,
+                "porcentaje": "58.23"
+            },
+            {
+                "nombre": "María González",
+                "partido": "MUD",
+                "votos": 8960,
+                "porcentaje": "41.77"
+            }
+        ]
+    },
+    "concejo_lista": {
+        "candidatos": [
+            {
+                "nombre": "Lista PSUV",
+                "partido": "PSUV",
+                "votos": 11800,
+                "porcentaje": "55.05"
+            },
+            {
+                "nombre": "Lista MUD",
+                "partido": "MUD",
+                "votos": 9630,
+                "porcentaje": "44.95"
+            }
+        ],
+        "escannos": {
+            "partido": "PSUV",
+            "cantidad": 7
+        }
+    },
+    "concejo_taques": {
+        "candidatos": [
+            {
+                "nombre": "Carlos Rojas",
+                "partido": "PSUV",
+                "votos": 6200,
+                "porcentaje": "57.89"
+            },
+            {
+                "nombre": "Ana Méndez",
+                "partido": "MUD",
+                "votos": 4510,
+                "porcentaje": "42.11"
+            }
+        ]
+    },
+    "concejo_judibana": {
+        "candidatos": [
+            {
+                "nombre": "Luisa Fernández",
+                "partido": "PSUV",
+                "votos": 5600,
+                "porcentaje": "52.34"
+            },
+            {
+                "nombre": "Pedro Castillo",
+                "partido": "MUD",
+                "votos": 5100,
+                "porcentaje": "47.66"
+            }
+        ]
+    },
+    "escrutinio": {
+        "alcalde": "19.53",
+        "concejo_lista": "18.75",
+        "concejo_taques": "20.10",
+        "concejo_judibana": "17.89"
+    }
+}
